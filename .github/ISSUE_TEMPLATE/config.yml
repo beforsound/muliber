@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: "Help and frequently asked questions"
+    url: "https://muliber.com/en/help/"
+    about: "Find setup instructions and answers to common questions before opening an issue."
