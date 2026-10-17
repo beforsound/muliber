@@ -1,0 +1,32 @@
+name: "Feature request"
+description: "Suggest a change or a new capability for Muliber."
+title: "[Feature] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion. Please check existing issues first.
+        Tell us what you want to accomplish, not just which button to add.
+  - type: textarea
+    id: use-case
+    attributes:
+      label: What are you trying to do?
+      description: Describe a real situation where Muliber does not yet meet your needs.
+      placeholder: "I keep playlists on my NAS and want to..."
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: What would you like Muliber to do?
+      description: Your preferred behavior or solution. A rough idea is fine.
+      placeholder: "It would help if..."
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Anything else?
+      description: Optional. Alternatives, examples or screenshots. Don't include private account or server details.
+    validations:
+      required: false

@@ -1,0 +1,67 @@
+name: "Bug report"
+description: "Report something that is not working as expected."
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve Muliber. Please check existing issues before posting.
+        **Privacy:** Remove passwords, access tokens, private server URLs, IP addresses, and personal information from logs and screenshots.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected instead.
+      placeholder: "I tried to play an album from my server, but..."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Tell us how to make the issue happen again.
+      placeholder: |
+        1. Open ...
+        2. Tap ...
+        3. See ...
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: Muliber version
+      placeholder: "e.g. 0.5.0"
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device and Android version
+      placeholder: "e.g. Pixel 8, Android 16"
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected area
+      description: Optional. Choose the closest match.
+      options:
+        - "Playback and sound"
+        - "Library, metadata, covers or lyrics"
+        - "Local files, SD card or USB"
+        - "Media servers"
+        - "Network storage (SMB, WebDAV, Nextcloud)"
+        - "Cloud storage"
+        - "Internet radio"
+        - "BitTorrent or Internet Archive"
+        - "Other"
+    validations:
+      required: false
+  - type: textarea
+    id: details
+    attributes:
+      label: Screenshots, logs or additional details
+      description: Optional. Attach only information you are comfortable sharing publicly.
+      placeholder: "Anything else that could help reproduce or diagnose the issue."
+    validations:
+      required: false
