@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://muliber.com/en/">
+  <a href="https://muliber.com/">
     <img src="assets/logo.svg" alt="Muliber" width="240">
   </a>
 
@@ -7,7 +7,7 @@
 
   **Your phone, home server, NAS, cloud storage, and internet radio. One music library.**
 
-  [Website](https://muliber.com/en/) · [Help](https://muliber.com/en/help/) · [Releases](https://github.com/beforsound/muliber/releases) · [Report an issue](https://github.com/beforsound/muliber/issues)
+  [Google Play](https://play.google.com/store/apps/details?id=io.muliber.app) · [Website](https://muliber.com/) · [Help](https://muliber.com/en/help/) · [Report an issue](https://github.com/beforsound/muliber/issues)
 
   **Android first · Free · No ads · No account required**
 </div>
@@ -55,16 +55,13 @@ While the spinner next to **Library** turns, there's nothing to fix by hand. If 
   <img src="assets/screenshots/plugins.jpg" width="245" alt="Source and feature plugins in Muliber">
 </p>
 
-## Download and release status
+## Download
 
-Muliber is under active development and is now in **closed testing on Google Play**. To join:
+Muliber is now available on **[Google Play](https://play.google.com/store/apps/details?id=io.muliber.app)**.
 
-1. Join the [Muliber testers group](https://groups.google.com/g/muliber-testers) with your Google account.
-2. Open the [testing link](https://play.google.com/apps/testing/io.muliber.app) with the same account, tap **Become a tester**, and install Muliber from Google Play.
+Requires Android 10 or newer.
 
-Muliber requires Android 10 or newer. Please keep the app installed for at least 14 days: Google Play opens the public release only after the closed test runs that long. Feedback is welcome through **Send feedback** on the Muliber page in Google Play or in [issues](https://github.com/beforsound/muliber/issues).
-
-**No public APK has been published in this repository yet.** Once the first public build is ready, it will appear in [GitHub Releases](https://github.com/beforsound/muliber/releases).
+No public APK has been published in this repository yet.
 
 ## Help and feedback
 
